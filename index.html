@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Web Page</title>
+</head>
+<body>
+    <h1>siddharth sai myneni</h1>
+    <h3>Tokyo</h3>
+    <p>My favorite city is <b>Tokyo</b>. It has a unique blend of <b>modern technology</b> 
+    and <b> traditional culture</b> , offering an endless array of experiences, delicious food
+     and beautiful sights.</p>
+     <hr>
+     <h2>Places to Visit in Tokyo</h2>
+     <ol>
+        <li>Sensō-ji Temple</li>
+        <li>Shibuya Crossing</li>
+        <li>Tokyo Skytree</li>
+    </ol>
+    <h2>Places to Visit Near Tokyo</h2>
+<ul>
+    <li>Mount Fuji
+        <ul>
+            <li>Stunning natural beauty</li>
+            <li>Great hiking experience</li>
+        </ul>
+    </li>
+    <li>Nikko</li>
+    <li>Hakone</li>
+</ul>
+<a href=myDish.html> My favorite food</a>
+<hr>
+<h2>how to update an existing file in Node.js</h2>
+<p>Add to an existing file’s contents without overwriting the file and only updating at the end.</p>
+<pre>
+    const fileSystem = require('fs');
+
+const updateFile = (fileName, text) =>
+ {
+	fileSystem.appendFile(fileName, text, (error) => 
+    {
+		if (error) throw error;
+		console.log('Updated the file!');
+	});
+};  
+</pre>
+<a href="https://stackoverflow.com/questions/10685998/how-to-update-a-value-in-a-json-file-and-save-it-through-node-js">snippet src</a>
+    </body>
+    </html>
